@@ -1,0 +1,38 @@
+{
+"name": "Chrome Extension for IITD Students",
+"version": "1.0",
+"description": "Extension for helping IITD Students in their daily tasks",
+"content_scripts": [
+{
+"matches": ["https://moodle.iitd.ac.in/login/index.php"],
+"all_frames": true,
+"js": ["moodle.js"]
+},
+{
+"matches": ["https://webmail.iitd.ac.in/roundcube/*"],
+"all_frames": true,
+"js": ["webmail.js"]
+},
+{
+"matches": ["https://oauth.iitd.ac.in/*"],
+"all_frames": true,
+"js": ["oauth.js"]
+}
+],
+"page_action": {
+"default_icon": "icon.png",
+"default_popup": "popup.html"
+},
+"permissions": ["storage", "declarativeContent"],
+"background": {
+"scripts": ["background.js"],
+"persistent": false
+},
+"icons": {
+"16": "icon.png",
+"32": "icon.png",
+"48": "icon.png",
+"128": "icon.png"
+},
+"manifest_version": 2
+}
