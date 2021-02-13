@@ -11,6 +11,4 @@ Websites Supported
 * https://webmail.iitd.ac.in/roundcube/
 * https://oauth.iitd.ac.in/
 
-**Disclaimer: All copyrights belong to their respective owners. I do not own anything.**
-
 Please contact bhavya.dkb@gmail.com for any queries
