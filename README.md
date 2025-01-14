@@ -1,4 +1,4 @@
-# IITD-chrome-ext
+# IITD chrome extension
 
 Extension for helping IITD Students in their daily tasks
 
